@@ -11,8 +11,8 @@ public class Launchbrowser {
 		System.setProperty("webdriver.chrome.driver", "C:\\chromedriver\\chromedriver-win64\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.lambdatest.com/");
-		String titlesname = driver.getTitle();
-		System.out.println(titlesname);
+		String titlesnames = driver.getTitle();
+		System.out.println(titlesnames);
 		driver.quit();
 	}
 }
